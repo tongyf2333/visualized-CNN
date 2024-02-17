@@ -1,2 +1,2 @@
 # visualized-CNN
-A visualized CNN,based on PyQt6 and pytorch.
+基于Fashionmnist数据集的可视化衣物分类工具，用PyQt6和pytorch编写
