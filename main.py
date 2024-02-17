@@ -63,7 +63,8 @@ class mywidget(QWidget):
         self.neural.train()
         
         print(self.neural.pred)
-        
+
+        #显示分类结果的标签
         label_pred0=QLabel("0:"+self.neural.pred[0],self)
         label_pred0.setGeometry(0,400,120,20)
         label_pred0.show()
