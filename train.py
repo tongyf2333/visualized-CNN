@@ -23,6 +23,7 @@ class my_cnn(nn.Module):
             nn.Linear(800,10),
             nn.Softmax(dim=-1)
         )
+        
     def forward(self,x):
         x=self.convs(x)
         return x
